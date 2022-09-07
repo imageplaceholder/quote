@@ -9,7 +9,7 @@ tags = ["business", "change", "character", "competition", "conservative", "coura
 	
 
 def make_transparent():
-    with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
         results = [
             executor.submit(
                 hti.screenshot,
