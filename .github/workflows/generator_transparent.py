@@ -54,9 +54,6 @@ def make_transparent():
 </script>""",
                 # url='https://www.python.org',
                 css_str="""   body{
- background: transparent;
- background-size: cover;
-	    background-color: transparent;
   color: white;
   font-family: Garamond;
 }
