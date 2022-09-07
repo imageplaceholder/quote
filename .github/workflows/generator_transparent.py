@@ -16,17 +16,7 @@ def make_transparent():
             executor.submit(
                 hti.screenshot,
                 html_str=f"""<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" crossorigin="anonymous"></script>
-<style>
 
-body {{
-background: transparent;
-}}
-
-html {{
-background: transparent;
-}}
-
-</style>
 
 <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
 <div class="container text-center">
