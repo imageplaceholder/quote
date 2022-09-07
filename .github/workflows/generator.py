@@ -108,7 +108,7 @@ button:hover{
 .author{
   font-size: 50px;
 }""",
-                save_as=f'./{i}/quote.png',
+                save_as=f'{i}.png',
             )
             for i in tags
         ]
