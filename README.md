@@ -1,3 +1,46 @@
+# readme-quotes
+
+Automatically updated quote images to use in your GitHub README / GitHub Profile README or your website etc! 
+
+Not ONLY do these quotes automatically update each day! There are over 30 types of quotes to choose from :fire:
+
+An instead of dynamically generating them via an API that returns an image - it's requires less computing power making it a much more greener / eco-friendly alternative 🌎 ♻️ 
+
+
+## Example and usage
+
+
+### Example
+
+
+<details>
+<summary> How to show a non-transparent quote</summary>
+
+
+Each type has a non-transparent version, to use this version. A URL will look something like this.
+
+<code>https://imageplaceholder.github.io/quotes/TYPE</code> - replace <code>TYPE</code> with a valid quote type.
+
+this code - 
+
+        <img height="400" src="https://imageplaceholder.github.io/quotes/business.png">
+        
+will produce a result like so - 
+
+<img height="400" src="https://imageplaceholder.github.io/quotes/business.png">
+
+
+</details>
+
+
+### Quote Types
+
+
+<details>
+<summary>
+Click to view all the quote images (quote types) available 
+</summary>
+
 ### Business
 
 <details>
@@ -829,3 +872,4 @@ Click to Preview
 https://imageplaceholder.github.io/quotes/wisdom.png
 ````
     
+</summary> d
