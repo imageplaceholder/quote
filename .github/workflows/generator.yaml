@@ -1,6 +1,12 @@
 name: Take a Screenshot
 
 on:
+  workflow_dispatch:
+    inputs:
+      Files:
+         description: 'URL(s) or File(s) to take screenshot of (seperate by comma):'
+         required: true
+         default: "html/quote.html,"
   schedule:
     - cron: "59 23, * * *"
 
