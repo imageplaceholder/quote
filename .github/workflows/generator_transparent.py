@@ -15,6 +15,10 @@ def make_transparent():
                 hti.screenshot,
                 html_str=f"""<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" crossorigin="anonymous"></script>
 <style>
+html{{
+	 background: transparent;
+	    background-color: transparent;
+	    }}
 </style>
 <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
 <div class="container text-center">
@@ -54,8 +58,7 @@ def make_transparent():
 </script>""",
                 # url='https://www.python.org',
                 css_str="""   body{
-		 background: transparent;
-	    background-color: transparent;
+	
   color: white;
   font-family: Garamond;
 }
