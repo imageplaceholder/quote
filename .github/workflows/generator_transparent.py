@@ -5,7 +5,7 @@ from html2image import Html2Image
 hti = Html2Image(size=(780, 740),  custom_flags=['--virtual-time-budget=200'])
 
 
-hti.browser.flags = ['--default-background-color=0', '--hide-scrollbars', '--virtual-time-budget=200']
+#hti.browser.flags = ['--default-background-color=0']
 
 
 tags = ["business", "change", "character", "competition", "conservative", "courage", "education", "faith", "family", "famous-quotes", "film", "freedom", "friendship", "future", "happiness", "history", "honor", "humor", "humorous", "inspirational", "leadership", "life", "literature", "love", "motivational", "nature", "pain", "philosophy", "politics", "power-quotes", "religion", "science", "self", "self-help", "social-justice", "spirituality", "sports", "success", "technology", "time", "truth", "virtue", "war", "wisdom"]
@@ -20,8 +20,8 @@ def make_transparent():
                 html_str=f"""<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" crossorigin="anonymous"></script>
 <style>
 html {{
-	 background: transparent;
-	    background-color: transparent;
+	 background: #00000000;
+	    background-color: #00000000;
 	    }}
 
 body {{
