@@ -1,8 +1,6 @@
 name: Take a Screenshot
 
 on:
-  workflow_dispatch:
-
   schedule:
     - cron: "0 22,7 * * *
 
