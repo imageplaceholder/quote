@@ -2,7 +2,7 @@ name: Take a Screenshot
 
 on:
   schedule:
-    - cron: "0 22,7 * * *
+    - cron: "59 23, * * *"
 
 jobs:
   Screenshotter:
